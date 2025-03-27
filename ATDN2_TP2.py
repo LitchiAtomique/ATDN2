@@ -156,7 +156,36 @@ def main():
     plt.grid(True)
     plt.show()
 
+    # Code a ne fonctionne pas et bloque la suite du code pour une raison que j'ignore
+    """
+    # Noyau linéaire
+    kpca_linear = KernelPCA(kernel="linear", n_components=2)
+    X_kpca_linear = kpca_linear.fit_transform(X)
 
+    # Noyau RBF
+    kpca_rbf = KernelPCA(kernel="rbf", gamma=0.1, n_components=2)
+    X_kpca_rbf = kpca_rbf.fit_transform(X)
+
+    # Noyau polynomial
+    kpca_poly = KernelPCA(kernel="poly", degree=3, n_components=2)
+    X_kpca_poly = kpca_poly.fit_transform(X)
+
+    # Visualisation des résultats
+    plt.figure(figsize=(18, 6))
+
+    plt.subplot(131)
+    plt.scatter(X_kpca_linear[:, 0], X_kpca_linear[:, 1], c=y)
+    plt.title("KernelPCA - Linéaire")
+
+    plt.subplot(132)
+    plt.scatter(X_kpca_rbf[:, 0], X_kpca_rbf[:, 1], c=y)
+    plt.title("KernelPCA - RBF")
+
+    plt.subplot(133)
+    plt.scatter(X_kpca_poly[:, 0], X_kpca_poly[:, 1], c=y)
+    plt.title("KernelPCA - Polynomial")
+
+    plt.show()"""
 
 
 
