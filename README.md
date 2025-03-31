@@ -1,4 +1,4 @@
-# ATDN2 - TP1 : Analyse des Facteurs Impactant le Rendement Agricole
+# ATDN2 - TD1 : Analyse des Facteurs Impactant le Rendement Agricole
 
 ## 📌 Objectif du TP
 L'objectif de ce projet est d'analyser les facteurs influençant le rendement agricole en utilisant des outils statistiques et de modélisation. L'étude permet d'identifier les variables les plus pertinentes et de formuler des recommandations pour optimiser la production.
